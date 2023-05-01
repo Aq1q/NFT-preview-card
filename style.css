@@ -138,4 +138,23 @@ body p {
 .container #creator .name:hover {
   cursor: pointer;
   color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 5px;
+  font-size: 0.5em;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 23%;
+    max-height: 50%;
+  }
+}
+@media screen and (min-width: 1530px) {
+  .container {
+    max-width: 20%;
+    max-height: 70%;
+  }
 }/*# sourceMappingURL=style.css.map */
